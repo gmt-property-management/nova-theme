@@ -1,0 +1,26 @@
+{
+    "name": "gmt/nova-theme",
+    "description": "Laravel nova theme for GMT projects",
+    "keywords": [],
+    "license": "proprietary",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gmt\\NovaTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gmt\\NovaTheme\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
