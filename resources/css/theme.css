@@ -24,3 +24,9 @@
     #C1242B
   );
 }
+
+.bg-grad-sidebar > h4 {
+  font-size: initial !important;
+  text-transform: capitalize !important;
+  color: yellow !important;
+}
